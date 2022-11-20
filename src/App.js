@@ -1,6 +1,5 @@
 import { ColorModeContext, useMode } from "./theme";
-import { CssBaseline, ThemeProvide } from "@mui/material";
-import { ThemeProvider } from "@emotion/react";
+import { CssBaseline, ThemeProvider } from "@mui/material";
 
 function App() {
   const [theme, colorMode] = useMode();
